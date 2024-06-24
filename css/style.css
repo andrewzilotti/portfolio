@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    padding: 20px 148px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav .logo i{
+    font-size: 30px;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+nav .logo a{
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav .logo i:hover,
+nav .logo a:hover{
+    color: purple;
+}
+
+nav .nav-links{
+    display: flex;
+    gap: 16px;
+}
+
+nav .nav-links a{
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+nav .nav-links a:hover,
+nav .nav-links a.selected{
+    color: purple;
+}
+
+.main{
+    padding: 0 149px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    height: calc(100vh - 80px);
+}
+
+.main .info h1{
+    font-size: 44px;
+    margin-bottom: 40px;
+}
+
+.main .info p{
+    font-size: 16px;
+    margin-top: 45px;
+    width: 100%;
+}
+
+.main img{
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+}
+
+footer{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .socials{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+footer .socials i{
+    font-size: 45px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+footer .socials i:hover{
+    color: purple;
+}
+
+footer p{
+    font-size: 14px;
+}
