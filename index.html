@@ -5,82 +5,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrew Zilotti</title>
+
+    <!-- css -->
     <link rel="stylesheet" href="css/style.css">
+
     <!-- icon do logo -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <!-- icon dos link das redes sociais -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- animação menu mobile -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
 </head>
 
-<body class="light-theme">
-
+<body>
     <!-- modo claro e modo escuro -->
 
-    <!-- <div>
-        <input type="checkbox" class="checkbox" name="" id="chk">
-        
-        <label class="label" for="chk">
-            <i class='bx bx-moon'></i>
-            <i class='bx bx-sun'></i>
-            <div class="ball"></div>
-        </label>
-    </div> -->
 
-    <div>
-    </div>
-    
-    
-    <nav>
-        <div class="logo">
-            <a href="index.html"><i class="fa-brands fa-web-awesome"></i> Andrew Zilotti</a>
+    <!-- Cabeçalho -->
+    <header>
+        <nav id="navbar">
+            <a href="index.html">
+                <i class="fa-brands fa-web-awesome" id="nav_logo"></i>
+            </a>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="index.html">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="studies.html">Estudos</a>
+                </li>
+            </ul>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="index.html">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="studies.html">Estudos</a>
+                </li>
+            </ul>
         </div>
-        
-        <div class="nav-links">
-            <a class="selected" href="index.html">Início</a>
-            <!-- <a href="projetos.html">Projetos</a> -->
-            <a href="estudos.html">Estudos</a>
-            <!-- <a href="jogos.html">Jogos</a> -->
-
-            <!-- Botão de theme -->
-            <button class="btn">Escuro</button>
-        </div>
-    </nav>
+    </header>
 
 
+    <!-- Corpo -->
+    <main id="home">
+        <div id="info-home">
+            <h1 class="title-home">&nbsp;&nbsp;Olá, eu sou Andrew Zilotti,<br>Garçom e estudante nas poucas horas vagas.
+            </h1>
 
-    <div class="main">
-        <div class="info">
-            <h1>&nbsp;&nbsp;Olá, eu sou Andrew Zilotti,<br>Garçom e estudante nas poucas horas vagas.</h1>
-
-            <p>&nbsp;&nbsp;&nbsp;Atualmente, sou garçom em um restaurante e no meu tempo livre estudo programação.
+            <p class="description-home">&nbsp;&nbsp;&nbsp;Atualmente, sou garçom em
+                um restaurante e no meu tempo livre estudo programação.
                 <br><br>
 
                 &nbsp;&nbsp;&nbsp;Meu aprendizado é realizado através de recursos gratuitos disponíveis no YouTube,
                 sites governamentais e plataformas de ensino online. <br><br>
 
-                &nbsp;&nbsp;&nbsp;Meu objetivo é desenvolver projetos que possam auxiliar outras pessoas que, assim como
+                &nbsp;&nbsp;&nbsp;Meu objetivo é desenvolver projetos que possam auxiliar outras pessoas que, assim
+                como
                 eu, não têm condições para investir em cursos pagos ou não dispõem de tempo para frequentar uma
-                instituição acadêmica.</p>
+                instituição acadêmica.
+            </p>
+
+
+            <div id="social-home">
+                <a href="https://www.instagram.com/andrewzilotti/" target="_blank"><i class="fa-brands fa-instagram"
+                        id="social"></i>@andrewzilotti</a>
+
+                <a href="https://www.youtube.com/@darealezacanal" target="_blank"><i class="fa-brands fa-youtube"
+                        id="social"></i>Canal Pessoal</a>
+
+                <a href="https://www.youtube.com/@darealezacanal" target="_blank"><i class="fa-brands fa-youtube"
+                        id="social"></i>Gameplay</a>
+
+                <a href="https://github.com/andrewzilotti" target="_blank"><i class="fa-brands fa-github"
+                        id="social"></i>andrewzilotti</a>
+
+                <a href="https://www.linkedin.com/in/andrewzilotti/" target="_blank"><i class="fa-brands fa-linkedin"
+                        id="social"></i>andrewzilotti</a>
+            </div>
         </div>
-        <img src="imagens/eu.jpg" alt="">
-    </div>
+
+
+        <div id="photo-home">
+            <img src="imagens/eu.jpg" alt="">
+        </div>
+
+    </main>
 
     <footer>
-        <div class="socials">
-            <a href="https://www.instagram.com/andrewzilotti/" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <section id="footer">
+            <div class="social">
+                <a href="https://www.instagram.com/andrewzilotti/" target="_blank"><i class="fa-brands fa-instagram"
+                        id="social"></i></a>
 
-            <a href="https://www.youtube.com/@darealezacanal" target="_blank"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.youtube.com/@darealezacanal" target="_blank"><i class="fa-brands fa-youtube"
+                        id="social"></i></i></a>
 
-            <a href="https://github.com/andrewzilotti" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://github.com/andrewzilotti" target="_blank"><i class="fa-brands fa-github"
+                        id="social"></i></a>
 
-            <a href="https://www.linkedin.com/in/andrewzilotti/" target="_blank"><i
-                    class='bx bxl-linkedin-square'></i></a>
-        </div>
-        <p>copyright &copy; 2024, Todos os direitos reservados.</p>
+                <a href="https://www.linkedin.com/in/andrewzilotti/" target="_blank"><i class="fa-brands fa-linkedin"
+                        id="social"></i></a>
+            </div>
+            <p>copyright &copy; 2024, Todos os direitos reservados.</p>
+        </section>
     </footer>
 
     <!-- script -->
-    <script src="java/main.js"></script>
+    <script src="java/script.js"></script>
     <noscript>Você precisa habilitar JavaScript para ver este site completo.</noscript>
 </body>
 
