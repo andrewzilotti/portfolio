@@ -214,6 +214,9 @@ header {
     border-radius: 2%;
 }
 
+.works-list a {
+    color: #800080;
+}
 
 .works-list .item h3 {
     font-size: 1.5rem;
