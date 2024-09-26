@@ -73,7 +73,7 @@ header {
     display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
     #nav_list {
         display: none;
     }
@@ -203,7 +203,7 @@ header {
     display: flex;
     gap: 30px;
     margin-bottom: 15px;
-    padding: 25px;
+    padding: 20px;
     border-radius: 22px;
     box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.1);
 }
@@ -311,9 +311,14 @@ header {
         text-align: center;
     }
 
+    #photo-home {
+        height: auto;
+        width: 100%;
+    }
+
     #photo-home img {
-        height: 300px;
-        width: auto;
+        height: auto;
+        width: 100%;
     }
 
     .content {
@@ -343,6 +348,15 @@ header {
     }
 
     /* Estudos */
+
+    .works-list{
+        width: 100%;
+    }
+ 
+    .works-list .item img {
+        width: 100%;
+        height: auto;
+    }
 
     .item{
         display: flex;
