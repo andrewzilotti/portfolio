@@ -143,7 +143,6 @@ header {
     justify-content: center;
     gap: 15px;
     padding: 0px 0px 20px;
-    background-color: aqua;
     width: 100%;
 }
 
@@ -306,10 +305,6 @@ header {
         justify-content: center;
         padding: 0px 10px;
         flex-wrap: wrap;
-
-    }
-
-    #info-home h1, p {
         text-align: center;
     }
 
@@ -342,5 +337,17 @@ header {
         width: 210px;
         height: 40px;
         font-size: 1.4rem;
+    }
+
+    /* Estudos */
+
+    .item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .details-item {
+        text-align: center;
     }
 }
