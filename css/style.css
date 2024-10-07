@@ -231,6 +231,11 @@ header {
     margin-bottom: 10px;
 }
 
+/* cores dos icones */
+
+#star{
+    color: rgb(255, 187, 0);
+}
 
 
 /* ---------------- Footer ---------------- */
