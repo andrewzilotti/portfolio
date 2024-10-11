@@ -237,6 +237,13 @@ header {
     color: rgb(255, 187, 0);
 }
 
+#award, #globe, #sharesquare {
+    color: rgb(0, 0, 155);
+}
+
+#youtube {
+    color: red;
+}
 
 /* ---------------- Footer ---------------- */
 
